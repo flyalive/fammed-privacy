@@ -140,20 +140,17 @@ a:hover { text-decoration: underline; }
 .footer-inner {
   max-width: var(--max-width);
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
 }
 
-.footer-brand { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+.footer-brand { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
 .footer-brand img { width: 32px; height: 32px; border-radius: 6px; }
 .footer-brand span { font-weight: 700; font-size: 18px; color: #F1F5F9; }
 
-.footer-nav { list-style: none; display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 16px; }
+.footer-nav { list-style: none; display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; }
 .footer-nav a { color: #94A3B8; }
 .footer-nav a:hover { color: #F1F5F9; }
 
-.footer-contact { color: #94A3B8; }
+.footer-contact { color: #94A3B8; font-size: 14px; margin-bottom: 0; }
 .footer-contact a { color: var(--primary-light); }
 
 .footer-disclaimer {
@@ -573,7 +570,6 @@ a:hover { text-decoration: underline; }
 
   .elderly-features { grid-template-columns: 1fr; }
 
-  .footer-inner { grid-template-columns: 1fr; }
 
   .guide-step { margin-left: 0; }
   .guide-tip, .guide-note { margin-left: 0; }
