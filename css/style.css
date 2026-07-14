@@ -560,6 +560,8 @@ a:hover { text-decoration: underline; }
   .hero-desc { font-size: 17px; }
   .hero-phone { width: 200px; }
 
+  .btn-outline { display: flex; width: 100%; max-width: 340px; justify-content: center; margin: 0 auto 14px; }
+
   .section { padding: 48px 20px; }
   .section-title { font-size: 24px; }
   .section-subtitle { margin-bottom: 32px; }
