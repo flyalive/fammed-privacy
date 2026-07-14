@@ -73,6 +73,8 @@ a:hover { text-decoration: underline; }
 
 .header-logo img { width: 36px; height: 36px; border-radius: 8px; }
 .header-logo span { font-weight: 700; font-size: 20px; }
+.header-logo h1 { font-weight: 700; font-size: 22px; margin: 0; line-height: 1; }
+.header-logo:has(h1) img { width: 40px; height: 40px; }
 
 .header-nav {
   display: flex;
@@ -533,6 +535,8 @@ a:hover { text-decoration: underline; }
   .header-inner { height: 56px; }
   .header-logo img { width: 28px; height: 28px; }
   .header-logo span { font-size: 15px; white-space: nowrap; }
+  .header-logo h1 { font-size: 16px; white-space: nowrap; }
+  .header-logo:has(h1) img { width: 30px; height: 30px; }
 
   .header-nav {
     display: none;
@@ -579,6 +583,8 @@ a:hover { text-decoration: underline; }
   body { font-size: 16px; }
   .header-logo img { width: 24px; height: 24px; }
   .header-logo span { font-size: 14px; }
+  .header-logo h1 { font-size: 15px; }
+  .header-logo:has(h1) img { width: 26px; height: 26px; }
   .header-logo { gap: 6px; }
   .hero h1 { font-size: 24px; }
   .btn { padding: 14px 24px; font-size: 16px; }
