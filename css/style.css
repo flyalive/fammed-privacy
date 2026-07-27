@@ -71,9 +71,18 @@ a:hover { text-decoration: underline; }
   color: var(--text-primary);
 }
 
-.header-logo img { width: 46px; height: 46px; border-radius: 8px; }
+.header-logo img { width: 46px; height: 46px; border-radius: 8px; animation: logo-pulse 3s ease-in-out infinite; }
 .header-logo span { font-weight: 700; font-size: 26px; }
 .header-logo h1 { font-weight: 700; font-size: 26px; margin: 0; line-height: 1; }
+
+@keyframes logo-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header-logo img { animation: none; }
+}
 
 .header-nav {
   display: flex;
